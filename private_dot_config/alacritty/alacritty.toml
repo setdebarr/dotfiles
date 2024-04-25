@@ -1,0 +1,153 @@
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.bright]
+black = "0x888888"
+blue = "0x0f75bd"
+cyan = "0x37c3d6"
+green = "0x78c853"
+magenta = "0x9e5e83"
+red = "0xd64937"
+white = "0xf9f9f9"
+yellow = "0xe3c151"
+
+[colors.normal]
+black = "0x555555"
+blue = "0x0d68a8"
+cyan = "0x288e9c"
+green = "0x57a935"
+magenta = "0x744560"
+red = "0x9c3528"
+white = "0xa2a2a2"
+yellow = "0xdaa234"
+
+[colors.primary]
+background = "0x282828"
+foreground = "0xa2a2a2"
+
+[cursor.style]
+blinking = "On"
+shape = "Block"
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 10.0
+
+[font.bold]
+family = "Hack"
+style = "Bold"
+
+[font.bold_italic]
+family = "Hack"
+style = "Bold Italic"
+
+[font.italic]
+family = "Hack"
+style = "Italic"
+
+[font.normal]
+family = "Hack"
+style = "Regular"
+
+[font.offset]
+x = 0
+y = 1
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "Paste"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "Copy"
+
+[[keyboard.bindings]]
+action = "ClearLogNotice"
+key = "L"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\f"
+key = "L"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "ScrollPageUp"
+key = "PageUp"
+mode = "~Alt"
+mods = "Shift"
+
+[[keyboard.bindings]]
+action = "ScrollPageDown"
+key = "PageDown"
+mode = "~Alt"
+mods = "Shift"
+
+[[keyboard.bindings]]
+action = "ScrollToTop"
+key = "Home"
+mode = "~Alt"
+mods = "Shift"
+
+[[keyboard.bindings]]
+action = "ScrollToBottom"
+key = "End"
+mode = "~Alt"
+mods = "Shift"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mode = "~Vi"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "PasteSelection"
+key = "Insert"
+mods = "Shift"
+
+[[keyboard.bindings]]
+action = "ResetFontSize"
+key = "Key0"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Equals"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "Minus"
+mods = "Control"
+
+[scrolling]
+history = 5000
+
+[shell]
+args = ["--login"]
+program = "/bin/fish"
+
+[window]
+decorations = "full"
+dynamic_padding = false
+title = "Alacritty"
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.dimensions]
+columns = 105
+lines = 24
+
+[window.padding]
+x = 2
+y = 2
